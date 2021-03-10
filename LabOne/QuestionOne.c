@@ -2,9 +2,15 @@
 // Created by clirim on 2/28/21.
 //
 
-#include <stdio.h>
+/* Complete the program with the following requirements:
 
-float pow(float a, float b) {
+create struct for point in three-dimensional space and write a function that will compute the distance between two such points.
+write a function that accepts as argument three 2D points and checks if they are collinear (they all lie on a straight line).
+*/
+
+#include <stdio.h>
+#include <math.h>
+float power(float a, float b) {
     float res = 1;
     for(b; b > 0; b--)
         res *= a;
@@ -22,11 +28,11 @@ typedef struct point2D {
 } point2D;
 
 float distance3D(point3D left, point3D right) {
-    return sqrt(pow((right.x - left.x), 2) + pow((right.y - left.y), 2) + pow((right.z - left.z), 2));
+    return sqrt(power((right.x - left.x), 2) + power((right.y - left.y), 2) + power((right.z - left.z), 2));
 }
 
 float distance(point2D left, point2D right) {
-    return sqrt(pow((right.x - left.x), 2) + pow((right.y - left.y), 2));
+    return sqrt(power((right.x - left.x), 2) + power((right.y - left.y), 2));
 }
 
 int collinear(point2D one, point2D two, point2D three) {
