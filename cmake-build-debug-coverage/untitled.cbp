@@ -164,13 +164,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/LabOne/QuestionOne.c">
+		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/LabTwo/QuestionOne.cpp">
 			<Option target="QuestionOne"/>
 		</Unit>
-		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/LabOne/QuestionThree.c">
+		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/LabTwo/QuestionThree.cpp">
 			<Option target="QuestionThree"/>
 		</Unit>
-		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/LabOne/QuestionTwo.c">
+		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/LabTwo/QuestionTwo.cpp">
 			<Option target="QuestionTwo"/>
 		</Unit>
 		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/CMakeLists.txt">

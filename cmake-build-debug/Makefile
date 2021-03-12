@@ -168,86 +168,86 @@ QuestionThree/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/build
 .PHONY : QuestionThree/fast
 
-LabOne/QuestionOne.obj: LabOne/QuestionOne.c.obj
+LabTwo/QuestionOne.obj: LabTwo/QuestionOne.cpp.obj
 
-.PHONY : LabOne/QuestionOne.obj
-
-# target to build an object file
-LabOne/QuestionOne.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabOne/QuestionOne.c.obj
-.PHONY : LabOne/QuestionOne.c.obj
-
-LabOne/QuestionOne.i: LabOne/QuestionOne.c.i
-
-.PHONY : LabOne/QuestionOne.i
-
-# target to preprocess a source file
-LabOne/QuestionOne.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabOne/QuestionOne.c.i
-.PHONY : LabOne/QuestionOne.c.i
-
-LabOne/QuestionOne.s: LabOne/QuestionOne.c.s
-
-.PHONY : LabOne/QuestionOne.s
-
-# target to generate assembly for a file
-LabOne/QuestionOne.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabOne/QuestionOne.c.s
-.PHONY : LabOne/QuestionOne.c.s
-
-LabOne/QuestionThree.obj: LabOne/QuestionThree.c.obj
-
-.PHONY : LabOne/QuestionThree.obj
+.PHONY : LabTwo/QuestionOne.obj
 
 # target to build an object file
-LabOne/QuestionThree.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/LabOne/QuestionThree.c.obj
-.PHONY : LabOne/QuestionThree.c.obj
+LabTwo/QuestionOne.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabTwo/QuestionOne.cpp.obj
+.PHONY : LabTwo/QuestionOne.cpp.obj
 
-LabOne/QuestionThree.i: LabOne/QuestionThree.c.i
+LabTwo/QuestionOne.i: LabTwo/QuestionOne.cpp.i
 
-.PHONY : LabOne/QuestionThree.i
+.PHONY : LabTwo/QuestionOne.i
 
 # target to preprocess a source file
-LabOne/QuestionThree.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/LabOne/QuestionThree.c.i
-.PHONY : LabOne/QuestionThree.c.i
+LabTwo/QuestionOne.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabTwo/QuestionOne.cpp.i
+.PHONY : LabTwo/QuestionOne.cpp.i
 
-LabOne/QuestionThree.s: LabOne/QuestionThree.c.s
+LabTwo/QuestionOne.s: LabTwo/QuestionOne.cpp.s
 
-.PHONY : LabOne/QuestionThree.s
+.PHONY : LabTwo/QuestionOne.s
 
 # target to generate assembly for a file
-LabOne/QuestionThree.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/LabOne/QuestionThree.c.s
-.PHONY : LabOne/QuestionThree.c.s
+LabTwo/QuestionOne.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabTwo/QuestionOne.cpp.s
+.PHONY : LabTwo/QuestionOne.cpp.s
 
-LabOne/QuestionTwo.obj: LabOne/QuestionTwo.c.obj
+LabTwo/QuestionThree.obj: LabTwo/QuestionThree.cpp.obj
 
-.PHONY : LabOne/QuestionTwo.obj
+.PHONY : LabTwo/QuestionThree.obj
 
 # target to build an object file
-LabOne/QuestionTwo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/LabOne/QuestionTwo.c.obj
-.PHONY : LabOne/QuestionTwo.c.obj
+LabTwo/QuestionThree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.obj
+.PHONY : LabTwo/QuestionThree.cpp.obj
 
-LabOne/QuestionTwo.i: LabOne/QuestionTwo.c.i
+LabTwo/QuestionThree.i: LabTwo/QuestionThree.cpp.i
 
-.PHONY : LabOne/QuestionTwo.i
+.PHONY : LabTwo/QuestionThree.i
 
 # target to preprocess a source file
-LabOne/QuestionTwo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/LabOne/QuestionTwo.c.i
-.PHONY : LabOne/QuestionTwo.c.i
+LabTwo/QuestionThree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.i
+.PHONY : LabTwo/QuestionThree.cpp.i
 
-LabOne/QuestionTwo.s: LabOne/QuestionTwo.c.s
+LabTwo/QuestionThree.s: LabTwo/QuestionThree.cpp.s
 
-.PHONY : LabOne/QuestionTwo.s
+.PHONY : LabTwo/QuestionThree.s
 
 # target to generate assembly for a file
-LabOne/QuestionTwo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/LabOne/QuestionTwo.c.s
-.PHONY : LabOne/QuestionTwo.c.s
+LabTwo/QuestionThree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.s
+.PHONY : LabTwo/QuestionThree.cpp.s
+
+LabTwo/QuestionTwo.obj: LabTwo/QuestionTwo.cpp.obj
+
+.PHONY : LabTwo/QuestionTwo.obj
+
+# target to build an object file
+LabTwo/QuestionTwo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/LabTwo/QuestionTwo.cpp.obj
+.PHONY : LabTwo/QuestionTwo.cpp.obj
+
+LabTwo/QuestionTwo.i: LabTwo/QuestionTwo.cpp.i
+
+.PHONY : LabTwo/QuestionTwo.i
+
+# target to preprocess a source file
+LabTwo/QuestionTwo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/LabTwo/QuestionTwo.cpp.i
+.PHONY : LabTwo/QuestionTwo.cpp.i
+
+LabTwo/QuestionTwo.s: LabTwo/QuestionTwo.cpp.s
+
+.PHONY : LabTwo/QuestionTwo.s
+
+# target to generate assembly for a file
+LabTwo/QuestionTwo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/LabTwo/QuestionTwo.cpp.s
+.PHONY : LabTwo/QuestionTwo.cpp.s
 
 # Help Target
 help:
@@ -260,15 +260,15 @@ help:
 	@echo ... QuestionOne
 	@echo ... QuestionThree
 	@echo ... QuestionTwo
-	@echo ... LabOne/QuestionOne.obj
-	@echo ... LabOne/QuestionOne.i
-	@echo ... LabOne/QuestionOne.s
-	@echo ... LabOne/QuestionThree.obj
-	@echo ... LabOne/QuestionThree.i
-	@echo ... LabOne/QuestionThree.s
-	@echo ... LabOne/QuestionTwo.obj
-	@echo ... LabOne/QuestionTwo.i
-	@echo ... LabOne/QuestionTwo.s
+	@echo ... LabTwo/QuestionOne.obj
+	@echo ... LabTwo/QuestionOne.i
+	@echo ... LabTwo/QuestionOne.s
+	@echo ... LabTwo/QuestionThree.obj
+	@echo ... LabTwo/QuestionThree.i
+	@echo ... LabTwo/QuestionThree.s
+	@echo ... LabTwo/QuestionTwo.obj
+	@echo ... LabTwo/QuestionTwo.i
+	@echo ... LabTwo/QuestionTwo.s
 .PHONY : help
 
 
