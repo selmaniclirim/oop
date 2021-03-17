@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug-covera
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Exercise9.dir/all
+all: CMakeFiles/Exercise8.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Exercise9.dir/clean
+clean: CMakeFiles/Exercise8.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Exercise9.dir
+# Target rules for target CMakeFiles/Exercise8.dir
 
 # All Build rule for target.
-CMakeFiles/Exercise9.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise9.dir\build.make CMakeFiles/Exercise9.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise9.dir\build.make CMakeFiles/Exercise9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug-coverage\CMakeFiles --progress-num=1,2 "Built target Exercise9"
-.PHONY : CMakeFiles/Exercise9.dir/all
+CMakeFiles/Exercise8.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise8.dir\build.make CMakeFiles/Exercise8.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise8.dir\build.make CMakeFiles/Exercise8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug-coverage\CMakeFiles --progress-num=1,2 "Built target Exercise8"
+.PHONY : CMakeFiles/Exercise8.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Exercise9.dir/rule: cmake_check_build_system
+CMakeFiles/Exercise8.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug-coverage\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Exercise9.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Exercise8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug-coverage\CMakeFiles 0
-.PHONY : CMakeFiles/Exercise9.dir/rule
+.PHONY : CMakeFiles/Exercise8.dir/rule
 
 # Convenience name for target.
-Exercise9: CMakeFiles/Exercise9.dir/rule
+Exercise8: CMakeFiles/Exercise8.dir/rule
 
-.PHONY : Exercise9
+.PHONY : Exercise8
 
 # clean rule for target.
-CMakeFiles/Exercise9.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise9.dir\build.make CMakeFiles/Exercise9.dir/clean
-.PHONY : CMakeFiles/Exercise9.dir/clean
+CMakeFiles/Exercise8.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise8.dir\build.make CMakeFiles/Exercise8.dir/clean
+.PHONY : CMakeFiles/Exercise8.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -17,8 +17,8 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Exercise9">
-				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/Exercise9.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Exercise8">
+				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/Exercise8.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -32,14 +32,14 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exercise9"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exercise8"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Exercise9/fast">
-				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/Exercise9.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Exercise8/fast">
+				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/Exercise8.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,7 +53,7 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exercise9/fast"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/Makefile&quot;  VERBOSE=1 Exercise8/fast"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -80,8 +80,8 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/Exercises/Exercise9.c">
-			<Option target="Exercise9"/>
+		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/Exercises/Exercise8.c">
+			<Option target="Exercise8"/>
 		</Unit>
 		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

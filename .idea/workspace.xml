@@ -5,8 +5,8 @@
       <config projectName="untitled" targetName="Exercise26" />
       <config projectName="untitled" targetName="QuestionTwo" />
       <config projectName="untitled" targetName="QuestionThree" />
-      <config projectName="untitled" targetName="Exercise9" />
       <config projectName="untitled" targetName="TestOne" />
+      <config projectName="untitled" targetName="Exercise8" />
       <config projectName="untitled" targetName="QuestionOne" />
       <config projectName="untitled" targetName="LabOne_Q2" />
       <config projectName="untitled" targetName="Exercise27" />
@@ -74,7 +74,7 @@
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunManager">
-    <configuration name="Exercise9" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled" RUN_TARGET_NAME="Exercise9" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="Exercise8" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled" RUN_TARGET_NAME="Exercise8" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -108,7 +108,7 @@
       <workItem from="1615999775817" duration="3292000" />
       <workItem from="1616003105837" duration="4128000" />
       <workItem from="1616014244155" duration="1408000" />
-      <workItem from="1616015672501" duration="3050000" />
+      <workItem from="1616015672501" duration="3366000" />
     </task>
     <task id="LOCAL-00001" summary="Added Clion support">
       <created>1615382501395</created>

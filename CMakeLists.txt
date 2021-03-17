@@ -4,4 +4,4 @@ project(untitled)
 set(CMAKE_CXX_STANDARD 14)
 
 
-add_executable(Exercise9 Exercises/Exercise9.c)
+add_executable(Exercise8 Exercises/Exercise8.c)
