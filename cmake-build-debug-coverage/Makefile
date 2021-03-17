@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Exercise8
+# Target rules for targets named Exercise5
 
 # Build rule for target.
-Exercise8: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Exercise8
-.PHONY : Exercise8
+Exercise5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Exercise5
+.PHONY : Exercise5
 
 # fast build rule for target.
-Exercise8/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise8.dir\build.make CMakeFiles/Exercise8.dir/build
-.PHONY : Exercise8/fast
+Exercise5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise5.dir\build.make CMakeFiles/Exercise5.dir/build
+.PHONY : Exercise5/fast
 
-Exercises/Exercise8.obj: Exercises/Exercise8.c.obj
+Exercises/Exercise5.obj: Exercises/Exercise5.cpp.obj
 
-.PHONY : Exercises/Exercise8.obj
+.PHONY : Exercises/Exercise5.obj
 
 # target to build an object file
-Exercises/Exercise8.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise8.dir\build.make CMakeFiles/Exercise8.dir/Exercises/Exercise8.c.obj
-.PHONY : Exercises/Exercise8.c.obj
+Exercises/Exercise5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise5.dir\build.make CMakeFiles/Exercise5.dir/Exercises/Exercise5.cpp.obj
+.PHONY : Exercises/Exercise5.cpp.obj
 
-Exercises/Exercise8.i: Exercises/Exercise8.c.i
+Exercises/Exercise5.i: Exercises/Exercise5.cpp.i
 
-.PHONY : Exercises/Exercise8.i
+.PHONY : Exercises/Exercise5.i
 
 # target to preprocess a source file
-Exercises/Exercise8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise8.dir\build.make CMakeFiles/Exercise8.dir/Exercises/Exercise8.c.i
-.PHONY : Exercises/Exercise8.c.i
+Exercises/Exercise5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise5.dir\build.make CMakeFiles/Exercise5.dir/Exercises/Exercise5.cpp.i
+.PHONY : Exercises/Exercise5.cpp.i
 
-Exercises/Exercise8.s: Exercises/Exercise8.c.s
+Exercises/Exercise5.s: Exercises/Exercise5.cpp.s
 
-.PHONY : Exercises/Exercise8.s
+.PHONY : Exercises/Exercise5.s
 
 # target to generate assembly for a file
-Exercises/Exercise8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise8.dir\build.make CMakeFiles/Exercise8.dir/Exercises/Exercise8.c.s
-.PHONY : Exercises/Exercise8.c.s
+Exercises/Exercise5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise5.dir\build.make CMakeFiles/Exercise5.dir/Exercises/Exercise5.cpp.s
+.PHONY : Exercises/Exercise5.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Exercise8
-	@echo ... Exercises/Exercise8.obj
-	@echo ... Exercises/Exercise8.i
-	@echo ... Exercises/Exercise8.s
+	@echo ... Exercise5
+	@echo ... Exercises/Exercise5.obj
+	@echo ... Exercises/Exercise5.i
+	@echo ... Exercises/Exercise5.s
 .PHONY : help
 
 

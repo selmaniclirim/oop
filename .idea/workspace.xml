@@ -6,7 +6,7 @@
       <config projectName="untitled" targetName="QuestionTwo" />
       <config projectName="untitled" targetName="QuestionThree" />
       <config projectName="untitled" targetName="TestOne" />
-      <config projectName="untitled" targetName="Exercise8" />
+      <config projectName="untitled" targetName="Exercise5" />
       <config projectName="untitled" targetName="QuestionOne" />
       <config projectName="untitled" targetName="LabOne_Q2" />
       <config projectName="untitled" targetName="Exercise27" />
@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95adb123-d1fa-4b64-8280-53792b37eeea" name="Default Changelist" comment="Added Clion support">
+      <change afterPath="$PROJECT_DIR$/Exercises/Exercise5.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-coverage/CMakeFiles/Makefile.cmake" afterDir="false" />
@@ -74,7 +75,7 @@
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunManager">
-    <configuration name="Exercise8" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled" RUN_TARGET_NAME="Exercise8" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="Exercise5" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled" RUN_TARGET_NAME="Exercise5" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -108,7 +109,7 @@
       <workItem from="1615999775817" duration="3292000" />
       <workItem from="1616003105837" duration="4128000" />
       <workItem from="1616014244155" duration="1408000" />
-      <workItem from="1616015672501" duration="3366000" />
+      <workItem from="1616015672501" duration="4350000" />
     </task>
     <task id="LOCAL-00001" summary="Added Clion support">
       <created>1615382501395</created>
