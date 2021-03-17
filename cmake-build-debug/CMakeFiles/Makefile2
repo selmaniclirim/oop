@@ -54,10 +54,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,9 +72,7 @@ CMAKE_BINARY_DIR = C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/QuestionOne.dir/all
-all: CMakeFiles/QuestionTwo.dir/all
-all: CMakeFiles/QuestionThree.dir/all
+all: CMakeFiles/Exercise21.dir/all
 
 .PHONY : all
 
@@ -84,92 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/QuestionOne.dir/clean
-clean: CMakeFiles/QuestionTwo.dir/clean
-clean: CMakeFiles/QuestionThree.dir/clean
+clean: CMakeFiles/Exercise21.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/QuestionOne.dir
+# Target rules for target CMakeFiles/Exercise21.dir
 
 # All Build rule for target.
-CMakeFiles/QuestionOne.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target QuestionOne"
-.PHONY : CMakeFiles/QuestionOne.dir/all
+CMakeFiles/Exercise21.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise21.dir\build.make CMakeFiles/Exercise21.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise21.dir\build.make CMakeFiles/Exercise21.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Exercise21"
+.PHONY : CMakeFiles/Exercise21.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/QuestionOne.dir/rule: cmake_check_build_system
+CMakeFiles/Exercise21.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/QuestionOne.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Exercise21.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/QuestionOne.dir/rule
+.PHONY : CMakeFiles/Exercise21.dir/rule
 
 # Convenience name for target.
-QuestionOne: CMakeFiles/QuestionOne.dir/rule
+Exercise21: CMakeFiles/Exercise21.dir/rule
 
-.PHONY : QuestionOne
-
-# clean rule for target.
-CMakeFiles/QuestionOne.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/clean
-.PHONY : CMakeFiles/QuestionOne.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/QuestionTwo.dir
-
-# All Build rule for target.
-CMakeFiles/QuestionTwo.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target QuestionTwo"
-.PHONY : CMakeFiles/QuestionTwo.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/QuestionTwo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/QuestionTwo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/QuestionTwo.dir/rule
-
-# Convenience name for target.
-QuestionTwo: CMakeFiles/QuestionTwo.dir/rule
-
-.PHONY : QuestionTwo
+.PHONY : Exercise21
 
 # clean rule for target.
-CMakeFiles/QuestionTwo.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/clean
-.PHONY : CMakeFiles/QuestionTwo.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/QuestionThree.dir
-
-# All Build rule for target.
-CMakeFiles/QuestionThree.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target QuestionThree"
-.PHONY : CMakeFiles/QuestionThree.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/QuestionThree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/QuestionThree.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/QuestionThree.dir/rule
-
-# Convenience name for target.
-QuestionThree: CMakeFiles/QuestionThree.dir/rule
-
-.PHONY : QuestionThree
-
-# clean rule for target.
-CMakeFiles/QuestionThree.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/clean
-.PHONY : CMakeFiles/QuestionThree.dir/clean
+CMakeFiles/Exercise21.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise21.dir\build.make CMakeFiles/Exercise21.dir/clean
+.PHONY : CMakeFiles/Exercise21.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

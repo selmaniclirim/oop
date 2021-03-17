@@ -58,10 +58,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -130,124 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named QuestionOne
+# Target rules for targets named Exercise21
 
 # Build rule for target.
-QuestionOne: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 QuestionOne
-.PHONY : QuestionOne
+Exercise21: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Exercise21
+.PHONY : Exercise21
 
 # fast build rule for target.
-QuestionOne/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/build
-.PHONY : QuestionOne/fast
+Exercise21/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise21.dir\build.make CMakeFiles/Exercise21.dir/build
+.PHONY : Exercise21/fast
 
-#=============================================================================
-# Target rules for targets named QuestionTwo
+Exercises/Exercise21.obj: Exercises/Exercise21.c.obj
 
-# Build rule for target.
-QuestionTwo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 QuestionTwo
-.PHONY : QuestionTwo
-
-# fast build rule for target.
-QuestionTwo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/build
-.PHONY : QuestionTwo/fast
-
-#=============================================================================
-# Target rules for targets named QuestionThree
-
-# Build rule for target.
-QuestionThree: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 QuestionThree
-.PHONY : QuestionThree
-
-# fast build rule for target.
-QuestionThree/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/build
-.PHONY : QuestionThree/fast
-
-LabTwo/QuestionOne.obj: LabTwo/QuestionOne.cpp.obj
-
-.PHONY : LabTwo/QuestionOne.obj
+.PHONY : Exercises/Exercise21.obj
 
 # target to build an object file
-LabTwo/QuestionOne.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabTwo/QuestionOne.cpp.obj
-.PHONY : LabTwo/QuestionOne.cpp.obj
+Exercises/Exercise21.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise21.dir\build.make CMakeFiles/Exercise21.dir/Exercises/Exercise21.c.obj
+.PHONY : Exercises/Exercise21.c.obj
 
-LabTwo/QuestionOne.i: LabTwo/QuestionOne.cpp.i
+Exercises/Exercise21.i: Exercises/Exercise21.c.i
 
-.PHONY : LabTwo/QuestionOne.i
-
-# target to preprocess a source file
-LabTwo/QuestionOne.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabTwo/QuestionOne.cpp.i
-.PHONY : LabTwo/QuestionOne.cpp.i
-
-LabTwo/QuestionOne.s: LabTwo/QuestionOne.cpp.s
-
-.PHONY : LabTwo/QuestionOne.s
-
-# target to generate assembly for a file
-LabTwo/QuestionOne.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabTwo/QuestionOne.cpp.s
-.PHONY : LabTwo/QuestionOne.cpp.s
-
-LabTwo/QuestionThree.obj: LabTwo/QuestionThree.cpp.obj
-
-.PHONY : LabTwo/QuestionThree.obj
-
-# target to build an object file
-LabTwo/QuestionThree.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.obj
-.PHONY : LabTwo/QuestionThree.cpp.obj
-
-LabTwo/QuestionThree.i: LabTwo/QuestionThree.cpp.i
-
-.PHONY : LabTwo/QuestionThree.i
+.PHONY : Exercises/Exercise21.i
 
 # target to preprocess a source file
-LabTwo/QuestionThree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.i
-.PHONY : LabTwo/QuestionThree.cpp.i
+Exercises/Exercise21.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise21.dir\build.make CMakeFiles/Exercise21.dir/Exercises/Exercise21.c.i
+.PHONY : Exercises/Exercise21.c.i
 
-LabTwo/QuestionThree.s: LabTwo/QuestionThree.cpp.s
+Exercises/Exercise21.s: Exercises/Exercise21.c.s
 
-.PHONY : LabTwo/QuestionThree.s
-
-# target to generate assembly for a file
-LabTwo/QuestionThree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.s
-.PHONY : LabTwo/QuestionThree.cpp.s
-
-LabTwo/QuestionTwo.obj: LabTwo/QuestionTwo.cpp.obj
-
-.PHONY : LabTwo/QuestionTwo.obj
-
-# target to build an object file
-LabTwo/QuestionTwo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/LabTwo/QuestionTwo.cpp.obj
-.PHONY : LabTwo/QuestionTwo.cpp.obj
-
-LabTwo/QuestionTwo.i: LabTwo/QuestionTwo.cpp.i
-
-.PHONY : LabTwo/QuestionTwo.i
-
-# target to preprocess a source file
-LabTwo/QuestionTwo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/LabTwo/QuestionTwo.cpp.i
-.PHONY : LabTwo/QuestionTwo.cpp.i
-
-LabTwo/QuestionTwo.s: LabTwo/QuestionTwo.cpp.s
-
-.PHONY : LabTwo/QuestionTwo.s
+.PHONY : Exercises/Exercise21.s
 
 # target to generate assembly for a file
-LabTwo/QuestionTwo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/LabTwo/QuestionTwo.cpp.s
-.PHONY : LabTwo/QuestionTwo.cpp.s
+Exercises/Exercise21.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise21.dir\build.make CMakeFiles/Exercise21.dir/Exercises/Exercise21.c.s
+.PHONY : Exercises/Exercise21.c.s
 
 # Help Target
 help:
@@ -257,18 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... QuestionOne
-	@echo ... QuestionThree
-	@echo ... QuestionTwo
-	@echo ... LabTwo/QuestionOne.obj
-	@echo ... LabTwo/QuestionOne.i
-	@echo ... LabTwo/QuestionOne.s
-	@echo ... LabTwo/QuestionThree.obj
-	@echo ... LabTwo/QuestionThree.i
-	@echo ... LabTwo/QuestionThree.s
-	@echo ... LabTwo/QuestionTwo.obj
-	@echo ... LabTwo/QuestionTwo.i
-	@echo ... LabTwo/QuestionTwo.s
+	@echo ... Exercise21
+	@echo ... Exercises/Exercise21.obj
+	@echo ... Exercises/Exercise21.i
+	@echo ... Exercises/Exercise21.s
 .PHONY : help
 
 

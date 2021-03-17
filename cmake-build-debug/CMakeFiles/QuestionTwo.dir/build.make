@@ -53,10 +53,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,15 +79,15 @@ include CMakeFiles/QuestionTwo.dir/flags.make
 CMakeFiles/QuestionTwo.dir/LabTwo/QuestionTwo.cpp.obj: CMakeFiles/QuestionTwo.dir/flags.make
 CMakeFiles/QuestionTwo.dir/LabTwo/QuestionTwo.cpp.obj: ../LabTwo/QuestionTwo.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/QuestionTwo.dir/LabTwo/QuestionTwo.cpp.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuestionTwo.dir\LabTwo\QuestionTwo.cpp.obj -c C:\Users\Clirim\Documents\GitHub\oop\LabTwo\QuestionTwo.cpp
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuestionTwo.dir\LabTwo\QuestionTwo.cpp.obj -c C:\Users\Clirim\Documents\GitHub\oop\LabTwo\QuestionTwo.cpp
 
 CMakeFiles/QuestionTwo.dir/LabTwo/QuestionTwo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuestionTwo.dir/LabTwo/QuestionTwo.cpp.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Clirim\Documents\GitHub\oop\LabTwo\QuestionTwo.cpp > CMakeFiles\QuestionTwo.dir\LabTwo\QuestionTwo.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Clirim\Documents\GitHub\oop\LabTwo\QuestionTwo.cpp > CMakeFiles\QuestionTwo.dir\LabTwo\QuestionTwo.cpp.i
 
 CMakeFiles/QuestionTwo.dir/LabTwo/QuestionTwo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuestionTwo.dir/LabTwo/QuestionTwo.cpp.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Clirim\Documents\GitHub\oop\LabTwo\QuestionTwo.cpp -o CMakeFiles\QuestionTwo.dir\LabTwo\QuestionTwo.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Clirim\Documents\GitHub\oop\LabTwo\QuestionTwo.cpp -o CMakeFiles\QuestionTwo.dir\LabTwo\QuestionTwo.cpp.s
 
 # Object files for target QuestionTwo
 QuestionTwo_OBJECTS = \

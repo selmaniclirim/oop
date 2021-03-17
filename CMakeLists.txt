@@ -3,9 +3,5 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(QuestionOne LabTwo/QuestionOne.cpp)
-add_executable(QuestionTwo LabTwo/QuestionTwo.cpp)
-add_executable(QuestionThree LabTwo/QuestionThree.cpp)
 
-
-
+add_executable(Exercise21 Exercises/Exercise21.c)
