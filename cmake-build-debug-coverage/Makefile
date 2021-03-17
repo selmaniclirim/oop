@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Exercise21
+# Target rules for targets named Exercise9
 
 # Build rule for target.
-Exercise21: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Exercise21
-.PHONY : Exercise21
+Exercise9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Exercise9
+.PHONY : Exercise9
 
 # fast build rule for target.
-Exercise21/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise21.dir\build.make CMakeFiles/Exercise21.dir/build
-.PHONY : Exercise21/fast
+Exercise9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise9.dir\build.make CMakeFiles/Exercise9.dir/build
+.PHONY : Exercise9/fast
 
-Exercises/Exercise21.obj: Exercises/Exercise21.c.obj
+Exercises/Exercise9.obj: Exercises/Exercise9.c.obj
 
-.PHONY : Exercises/Exercise21.obj
+.PHONY : Exercises/Exercise9.obj
 
 # target to build an object file
-Exercises/Exercise21.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise21.dir\build.make CMakeFiles/Exercise21.dir/Exercises/Exercise21.c.obj
-.PHONY : Exercises/Exercise21.c.obj
+Exercises/Exercise9.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise9.dir\build.make CMakeFiles/Exercise9.dir/Exercises/Exercise9.c.obj
+.PHONY : Exercises/Exercise9.c.obj
 
-Exercises/Exercise21.i: Exercises/Exercise21.c.i
+Exercises/Exercise9.i: Exercises/Exercise9.c.i
 
-.PHONY : Exercises/Exercise21.i
+.PHONY : Exercises/Exercise9.i
 
 # target to preprocess a source file
-Exercises/Exercise21.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise21.dir\build.make CMakeFiles/Exercise21.dir/Exercises/Exercise21.c.i
-.PHONY : Exercises/Exercise21.c.i
+Exercises/Exercise9.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise9.dir\build.make CMakeFiles/Exercise9.dir/Exercises/Exercise9.c.i
+.PHONY : Exercises/Exercise9.c.i
 
-Exercises/Exercise21.s: Exercises/Exercise21.c.s
+Exercises/Exercise9.s: Exercises/Exercise9.c.s
 
-.PHONY : Exercises/Exercise21.s
+.PHONY : Exercises/Exercise9.s
 
 # target to generate assembly for a file
-Exercises/Exercise21.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise21.dir\build.make CMakeFiles/Exercise21.dir/Exercises/Exercise21.c.s
-.PHONY : Exercises/Exercise21.c.s
+Exercises/Exercise9.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise9.dir\build.make CMakeFiles/Exercise9.dir/Exercises/Exercise9.c.s
+.PHONY : Exercises/Exercise9.c.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Exercise21
-	@echo ... Exercises/Exercise21.obj
-	@echo ... Exercises/Exercise21.i
-	@echo ... Exercises/Exercise21.s
+	@echo ... Exercise9
+	@echo ... Exercises/Exercise9.obj
+	@echo ... Exercises/Exercise9.i
+	@echo ... Exercises/Exercise9.s
 .PHONY : help
 
 
