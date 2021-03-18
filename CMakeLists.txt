@@ -4,4 +4,4 @@ project(untitled)
 set(CMAKE_CXX_STANDARD 14)
 
 
-add_executable(Exercise5 Exercises/Exercise5.cpp)
+add_executable(LabOne LabTwo/QuestionOne.cpp)

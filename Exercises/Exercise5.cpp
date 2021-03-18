@@ -18,7 +18,7 @@ struct ComputerGame {
 };
 
 void bestPlayer(ComputerGame *array, int n) {
-    int temp = 0;
+    int temp;
     int maxPlayers = 0;
     int maxPoints = 0;
     int indexPG = 0;

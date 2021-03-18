@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Exercise5.dir/all
+all: CMakeFiles/LabOne.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Exercise5.dir/clean
+clean: CMakeFiles/LabOne.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Exercise5.dir
+# Target rules for target CMakeFiles/LabOne.dir
 
 # All Build rule for target.
-CMakeFiles/Exercise5.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise5.dir\build.make CMakeFiles/Exercise5.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise5.dir\build.make CMakeFiles/Exercise5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Exercise5"
-.PHONY : CMakeFiles/Exercise5.dir/all
+CMakeFiles/LabOne.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LabOne.dir\build.make CMakeFiles/LabOne.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LabOne.dir\build.make CMakeFiles/LabOne.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target LabOne"
+.PHONY : CMakeFiles/LabOne.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Exercise5.dir/rule: cmake_check_build_system
+CMakeFiles/LabOne.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Exercise5.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/LabOne.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Exercise5.dir/rule
+.PHONY : CMakeFiles/LabOne.dir/rule
 
 # Convenience name for target.
-Exercise5: CMakeFiles/Exercise5.dir/rule
+LabOne: CMakeFiles/LabOne.dir/rule
 
-.PHONY : Exercise5
+.PHONY : LabOne
 
 # clean rule for target.
-CMakeFiles/Exercise5.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise5.dir\build.make CMakeFiles/Exercise5.dir/clean
-.PHONY : CMakeFiles/Exercise5.dir/clean
+CMakeFiles/LabOne.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LabOne.dir\build.make CMakeFiles/LabOne.dir/clean
+.PHONY : CMakeFiles/LabOne.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

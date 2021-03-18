@@ -46,14 +46,9 @@ bool check(int x, int y, int z) {
         if (y >= 0 && y <= 59) {
             if (z >= 0 && z <= 59)
                 return true;
-            else
-                return false;
         }
-        else
-            return false;
     }
-    else
-        return false;
+    return false;
 }
 
 bool checkAngle (Angle a1, int deg, int min, int sec) {

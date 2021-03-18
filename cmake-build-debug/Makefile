@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Exercise5
+# Target rules for targets named LabOne
 
 # Build rule for target.
-Exercise5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Exercise5
-.PHONY : Exercise5
+LabOne: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LabOne
+.PHONY : LabOne
 
 # fast build rule for target.
-Exercise5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise5.dir\build.make CMakeFiles/Exercise5.dir/build
-.PHONY : Exercise5/fast
+LabOne/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LabOne.dir\build.make CMakeFiles/LabOne.dir/build
+.PHONY : LabOne/fast
 
-Exercises/Exercise5.obj: Exercises/Exercise5.cpp.obj
+LabTwo/QuestionOne.obj: LabTwo/QuestionOne.cpp.obj
 
-.PHONY : Exercises/Exercise5.obj
+.PHONY : LabTwo/QuestionOne.obj
 
 # target to build an object file
-Exercises/Exercise5.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise5.dir\build.make CMakeFiles/Exercise5.dir/Exercises/Exercise5.cpp.obj
-.PHONY : Exercises/Exercise5.cpp.obj
+LabTwo/QuestionOne.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LabOne.dir\build.make CMakeFiles/LabOne.dir/LabTwo/QuestionOne.cpp.obj
+.PHONY : LabTwo/QuestionOne.cpp.obj
 
-Exercises/Exercise5.i: Exercises/Exercise5.cpp.i
+LabTwo/QuestionOne.i: LabTwo/QuestionOne.cpp.i
 
-.PHONY : Exercises/Exercise5.i
+.PHONY : LabTwo/QuestionOne.i
 
 # target to preprocess a source file
-Exercises/Exercise5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise5.dir\build.make CMakeFiles/Exercise5.dir/Exercises/Exercise5.cpp.i
-.PHONY : Exercises/Exercise5.cpp.i
+LabTwo/QuestionOne.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LabOne.dir\build.make CMakeFiles/LabOne.dir/LabTwo/QuestionOne.cpp.i
+.PHONY : LabTwo/QuestionOne.cpp.i
 
-Exercises/Exercise5.s: Exercises/Exercise5.cpp.s
+LabTwo/QuestionOne.s: LabTwo/QuestionOne.cpp.s
 
-.PHONY : Exercises/Exercise5.s
+.PHONY : LabTwo/QuestionOne.s
 
 # target to generate assembly for a file
-Exercises/Exercise5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise5.dir\build.make CMakeFiles/Exercise5.dir/Exercises/Exercise5.cpp.s
-.PHONY : Exercises/Exercise5.cpp.s
+LabTwo/QuestionOne.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LabOne.dir\build.make CMakeFiles/LabOne.dir/LabTwo/QuestionOne.cpp.s
+.PHONY : LabTwo/QuestionOne.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Exercise5
-	@echo ... Exercises/Exercise5.obj
-	@echo ... Exercises/Exercise5.i
-	@echo ... Exercises/Exercise5.s
+	@echo ... LabOne
+	@echo ... LabTwo/QuestionOne.obj
+	@echo ... LabTwo/QuestionOne.i
+	@echo ... LabTwo/QuestionOne.s
 .PHONY : help
 
 
