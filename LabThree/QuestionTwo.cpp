@@ -29,9 +29,11 @@ class Factory {
     Worker workers[100];
     int workersNumber;
 public:
-    Factory(Worker workers1 = Worker(), int n = 0) {
+    Factory(Worker w[] = {}, int n = 0) {
         this->workersNumber = n;
-        this->workers[n] = workers1;
+        for(int i = 0; i < n; i++) {
+            this->workers[i] = w[i];
+        }
     }
     void printWorkers() {
         for (int i = 0; i < workersNumber; i++) {
@@ -59,7 +61,6 @@ int main() {
         cin >> firstName >> lastName >> salary;
         w[i] = {firstName,lastName,salary};
         f = {w, n};
-        w[i].print();
     }
     cin >> minSalary;
     cout << "ALL WORKERS: " << endl;

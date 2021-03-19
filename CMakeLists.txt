@@ -6,4 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(QuestionOne LabThree/QuestionOne.cpp)
 add_executable(QuestionTwo LabThree/QuestionTwo.cpp)
+add_executable(QuestionThree LabThree/QuestionThree.cpp)
+add_executable(QuestionFour LabThree/QuestionFour.cpp)
+
 add_executable(TestThree Testing/TestThree.cpp)

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Clirim/Documents/GitHub/oop/LabTwo/QuestionThree.cpp" "C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.obj"
+  "C:/Users/Clirim/Documents/GitHub/oop/LabThree/QuestionThree.cpp" "C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

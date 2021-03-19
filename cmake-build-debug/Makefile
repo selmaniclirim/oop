@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +85,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,6 +168,59 @@ TestThree/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestThree.dir\build.make CMakeFiles/TestThree.dir/build
 .PHONY : TestThree/fast
 
+#=============================================================================
+# Target rules for targets named QuestionThree
+
+# Build rule for target.
+QuestionThree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 QuestionThree
+.PHONY : QuestionThree
+
+# fast build rule for target.
+QuestionThree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/build
+.PHONY : QuestionThree/fast
+
+#=============================================================================
+# Target rules for targets named QuestionFour
+
+# Build rule for target.
+QuestionFour: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 QuestionFour
+.PHONY : QuestionFour
+
+# fast build rule for target.
+QuestionFour/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionFour.dir\build.make CMakeFiles/QuestionFour.dir/build
+.PHONY : QuestionFour/fast
+
+LabThree/QuestionFour.obj: LabThree/QuestionFour.cpp.obj
+
+.PHONY : LabThree/QuestionFour.obj
+
+# target to build an object file
+LabThree/QuestionFour.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionFour.dir\build.make CMakeFiles/QuestionFour.dir/LabThree/QuestionFour.cpp.obj
+.PHONY : LabThree/QuestionFour.cpp.obj
+
+LabThree/QuestionFour.i: LabThree/QuestionFour.cpp.i
+
+.PHONY : LabThree/QuestionFour.i
+
+# target to preprocess a source file
+LabThree/QuestionFour.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionFour.dir\build.make CMakeFiles/QuestionFour.dir/LabThree/QuestionFour.cpp.i
+.PHONY : LabThree/QuestionFour.cpp.i
+
+LabThree/QuestionFour.s: LabThree/QuestionFour.cpp.s
+
+.PHONY : LabThree/QuestionFour.s
+
+# target to generate assembly for a file
+LabThree/QuestionFour.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionFour.dir\build.make CMakeFiles/QuestionFour.dir/LabThree/QuestionFour.cpp.s
+.PHONY : LabThree/QuestionFour.cpp.s
+
 LabThree/QuestionOne.obj: LabThree/QuestionOne.cpp.obj
 
 .PHONY : LabThree/QuestionOne.obj
@@ -194,6 +247,33 @@ LabThree/QuestionOne.s: LabThree/QuestionOne.cpp.s
 LabThree/QuestionOne.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.s
 .PHONY : LabThree/QuestionOne.cpp.s
+
+LabThree/QuestionThree.obj: LabThree/QuestionThree.cpp.obj
+
+.PHONY : LabThree/QuestionThree.obj
+
+# target to build an object file
+LabThree/QuestionThree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.obj
+.PHONY : LabThree/QuestionThree.cpp.obj
+
+LabThree/QuestionThree.i: LabThree/QuestionThree.cpp.i
+
+.PHONY : LabThree/QuestionThree.i
+
+# target to preprocess a source file
+LabThree/QuestionThree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.i
+.PHONY : LabThree/QuestionThree.cpp.i
+
+LabThree/QuestionThree.s: LabThree/QuestionThree.cpp.s
+
+.PHONY : LabThree/QuestionThree.s
+
+# target to generate assembly for a file
+LabThree/QuestionThree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.s
+.PHONY : LabThree/QuestionThree.cpp.s
 
 LabThree/QuestionTwo.obj: LabThree/QuestionTwo.cpp.obj
 
@@ -257,12 +337,20 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... QuestionFour
 	@echo ... QuestionOne
+	@echo ... QuestionThree
 	@echo ... QuestionTwo
 	@echo ... TestThree
+	@echo ... LabThree/QuestionFour.obj
+	@echo ... LabThree/QuestionFour.i
+	@echo ... LabThree/QuestionFour.s
 	@echo ... LabThree/QuestionOne.obj
 	@echo ... LabThree/QuestionOne.i
 	@echo ... LabThree/QuestionOne.s
+	@echo ... LabThree/QuestionThree.obj
+	@echo ... LabThree/QuestionThree.i
+	@echo ... LabThree/QuestionThree.s
 	@echo ... LabThree/QuestionTwo.obj
 	@echo ... LabThree/QuestionTwo.i
 	@echo ... LabThree/QuestionTwo.s

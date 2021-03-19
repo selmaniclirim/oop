@@ -76,27 +76,27 @@ include CMakeFiles/QuestionThree.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/QuestionThree.dir/flags.make
 
-CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.obj: CMakeFiles/QuestionThree.dir/flags.make
-CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.obj: ../LabTwo/QuestionThree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuestionThree.dir\LabTwo\QuestionThree.cpp.obj -c C:\Users\Clirim\Documents\GitHub\oop\LabTwo\QuestionThree.cpp
+CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.obj: CMakeFiles/QuestionThree.dir/flags.make
+CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.obj: ../LabThree/QuestionThree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuestionThree.dir\LabThree\QuestionThree.cpp.obj -c C:\Users\Clirim\Documents\GitHub\oop\LabThree\QuestionThree.cpp
 
-CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Clirim\Documents\GitHub\oop\LabTwo\QuestionThree.cpp > CMakeFiles\QuestionThree.dir\LabTwo\QuestionThree.cpp.i
+CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Clirim\Documents\GitHub\oop\LabThree\QuestionThree.cpp > CMakeFiles\QuestionThree.dir\LabThree\QuestionThree.cpp.i
 
-CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Clirim\Documents\GitHub\oop\LabTwo\QuestionThree.cpp -o CMakeFiles\QuestionThree.dir\LabTwo\QuestionThree.cpp.s
+CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Clirim\Documents\GitHub\oop\LabThree\QuestionThree.cpp -o CMakeFiles\QuestionThree.dir\LabThree\QuestionThree.cpp.s
 
 # Object files for target QuestionThree
 QuestionThree_OBJECTS = \
-"CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.obj"
+"CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.obj"
 
 # External object files for target QuestionThree
 QuestionThree_EXTERNAL_OBJECTS =
 
-QuestionThree.exe: CMakeFiles/QuestionThree.dir/LabTwo/QuestionThree.cpp.obj
+QuestionThree.exe: CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.obj
 QuestionThree.exe: CMakeFiles/QuestionThree.dir/build.make
 QuestionThree.exe: CMakeFiles/QuestionThree.dir/linklibs.rsp
 QuestionThree.exe: CMakeFiles/QuestionThree.dir/objects1.rsp

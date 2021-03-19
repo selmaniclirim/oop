@@ -75,6 +75,8 @@ CMAKE_BINARY_DIR = C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug
 all: CMakeFiles/QuestionOne.dir/all
 all: CMakeFiles/QuestionTwo.dir/all
 all: CMakeFiles/TestThree.dir/all
+all: CMakeFiles/QuestionThree.dir/all
+all: CMakeFiles/QuestionFour.dir/all
 
 .PHONY : all
 
@@ -87,6 +89,8 @@ preinstall:
 clean: CMakeFiles/QuestionOne.dir/clean
 clean: CMakeFiles/QuestionTwo.dir/clean
 clean: CMakeFiles/TestThree.dir/clean
+clean: CMakeFiles/QuestionThree.dir/clean
+clean: CMakeFiles/QuestionFour.dir/clean
 
 .PHONY : clean
 
@@ -97,7 +101,7 @@ clean: CMakeFiles/TestThree.dir/clean
 CMakeFiles/QuestionOne.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target QuestionOne"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target QuestionOne"
 .PHONY : CMakeFiles/QuestionOne.dir/all
 
 # Build rule for subdir invocation for target.
@@ -124,7 +128,7 @@ CMakeFiles/QuestionOne.dir/clean:
 CMakeFiles/QuestionTwo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target QuestionTwo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target QuestionTwo"
 .PHONY : CMakeFiles/QuestionTwo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -151,7 +155,7 @@ CMakeFiles/QuestionTwo.dir/clean:
 CMakeFiles/TestThree.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestThree.dir\build.make CMakeFiles/TestThree.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestThree.dir\build.make CMakeFiles/TestThree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target TestThree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target TestThree"
 .PHONY : CMakeFiles/TestThree.dir/all
 
 # Build rule for subdir invocation for target.
@@ -170,6 +174,60 @@ TestThree: CMakeFiles/TestThree.dir/rule
 CMakeFiles/TestThree.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestThree.dir\build.make CMakeFiles/TestThree.dir/clean
 .PHONY : CMakeFiles/TestThree.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/QuestionThree.dir
+
+# All Build rule for target.
+CMakeFiles/QuestionThree.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target QuestionThree"
+.PHONY : CMakeFiles/QuestionThree.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/QuestionThree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/QuestionThree.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/QuestionThree.dir/rule
+
+# Convenience name for target.
+QuestionThree: CMakeFiles/QuestionThree.dir/rule
+
+.PHONY : QuestionThree
+
+# clean rule for target.
+CMakeFiles/QuestionThree.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/clean
+.PHONY : CMakeFiles/QuestionThree.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/QuestionFour.dir
+
+# All Build rule for target.
+CMakeFiles/QuestionFour.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionFour.dir\build.make CMakeFiles/QuestionFour.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionFour.dir\build.make CMakeFiles/QuestionFour.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target QuestionFour"
+.PHONY : CMakeFiles/QuestionFour.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/QuestionFour.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/QuestionFour.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/QuestionFour.dir/rule
+
+# Convenience name for target.
+QuestionFour: CMakeFiles/QuestionFour.dir/rule
+
+.PHONY : QuestionFour
+
+# clean rule for target.
+CMakeFiles/QuestionFour.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionFour.dir\build.make CMakeFiles/QuestionFour.dir/clean
+.PHONY : CMakeFiles/QuestionFour.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
