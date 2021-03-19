@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Clirim/Documents/GitHub/oop/LabTwo/QuestionTwo.cpp
+C:/Users/Clirim/Documents/GitHub/oop/LabThree/QuestionTwo.cpp
 iostream
 -
-cmath
+cstring
 -
 

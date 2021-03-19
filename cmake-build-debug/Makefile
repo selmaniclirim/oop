@@ -130,44 +130,124 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LabOne
+# Target rules for targets named QuestionOne
 
 # Build rule for target.
-LabOne: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LabOne
-.PHONY : LabOne
+QuestionOne: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 QuestionOne
+.PHONY : QuestionOne
 
 # fast build rule for target.
-LabOne/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LabOne.dir\build.make CMakeFiles/LabOne.dir/build
-.PHONY : LabOne/fast
+QuestionOne/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/build
+.PHONY : QuestionOne/fast
 
-LabTwo/QuestionOne.obj: LabTwo/QuestionOne.cpp.obj
+#=============================================================================
+# Target rules for targets named QuestionTwo
 
-.PHONY : LabTwo/QuestionOne.obj
+# Build rule for target.
+QuestionTwo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 QuestionTwo
+.PHONY : QuestionTwo
+
+# fast build rule for target.
+QuestionTwo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/build
+.PHONY : QuestionTwo/fast
+
+#=============================================================================
+# Target rules for targets named TestThree
+
+# Build rule for target.
+TestThree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TestThree
+.PHONY : TestThree
+
+# fast build rule for target.
+TestThree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestThree.dir\build.make CMakeFiles/TestThree.dir/build
+.PHONY : TestThree/fast
+
+LabThree/QuestionOne.obj: LabThree/QuestionOne.cpp.obj
+
+.PHONY : LabThree/QuestionOne.obj
 
 # target to build an object file
-LabTwo/QuestionOne.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LabOne.dir\build.make CMakeFiles/LabOne.dir/LabTwo/QuestionOne.cpp.obj
-.PHONY : LabTwo/QuestionOne.cpp.obj
+LabThree/QuestionOne.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.obj
+.PHONY : LabThree/QuestionOne.cpp.obj
 
-LabTwo/QuestionOne.i: LabTwo/QuestionOne.cpp.i
+LabThree/QuestionOne.i: LabThree/QuestionOne.cpp.i
 
-.PHONY : LabTwo/QuestionOne.i
+.PHONY : LabThree/QuestionOne.i
 
 # target to preprocess a source file
-LabTwo/QuestionOne.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LabOne.dir\build.make CMakeFiles/LabOne.dir/LabTwo/QuestionOne.cpp.i
-.PHONY : LabTwo/QuestionOne.cpp.i
+LabThree/QuestionOne.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.i
+.PHONY : LabThree/QuestionOne.cpp.i
 
-LabTwo/QuestionOne.s: LabTwo/QuestionOne.cpp.s
+LabThree/QuestionOne.s: LabThree/QuestionOne.cpp.s
 
-.PHONY : LabTwo/QuestionOne.s
+.PHONY : LabThree/QuestionOne.s
 
 # target to generate assembly for a file
-LabTwo/QuestionOne.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LabOne.dir\build.make CMakeFiles/LabOne.dir/LabTwo/QuestionOne.cpp.s
-.PHONY : LabTwo/QuestionOne.cpp.s
+LabThree/QuestionOne.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.s
+.PHONY : LabThree/QuestionOne.cpp.s
+
+LabThree/QuestionTwo.obj: LabThree/QuestionTwo.cpp.obj
+
+.PHONY : LabThree/QuestionTwo.obj
+
+# target to build an object file
+LabThree/QuestionTwo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/LabThree/QuestionTwo.cpp.obj
+.PHONY : LabThree/QuestionTwo.cpp.obj
+
+LabThree/QuestionTwo.i: LabThree/QuestionTwo.cpp.i
+
+.PHONY : LabThree/QuestionTwo.i
+
+# target to preprocess a source file
+LabThree/QuestionTwo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/LabThree/QuestionTwo.cpp.i
+.PHONY : LabThree/QuestionTwo.cpp.i
+
+LabThree/QuestionTwo.s: LabThree/QuestionTwo.cpp.s
+
+.PHONY : LabThree/QuestionTwo.s
+
+# target to generate assembly for a file
+LabThree/QuestionTwo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/LabThree/QuestionTwo.cpp.s
+.PHONY : LabThree/QuestionTwo.cpp.s
+
+Testing/TestThree.obj: Testing/TestThree.cpp.obj
+
+.PHONY : Testing/TestThree.obj
+
+# target to build an object file
+Testing/TestThree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestThree.dir\build.make CMakeFiles/TestThree.dir/Testing/TestThree.cpp.obj
+.PHONY : Testing/TestThree.cpp.obj
+
+Testing/TestThree.i: Testing/TestThree.cpp.i
+
+.PHONY : Testing/TestThree.i
+
+# target to preprocess a source file
+Testing/TestThree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestThree.dir\build.make CMakeFiles/TestThree.dir/Testing/TestThree.cpp.i
+.PHONY : Testing/TestThree.cpp.i
+
+Testing/TestThree.s: Testing/TestThree.cpp.s
+
+.PHONY : Testing/TestThree.s
+
+# target to generate assembly for a file
+Testing/TestThree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestThree.dir\build.make CMakeFiles/TestThree.dir/Testing/TestThree.cpp.s
+.PHONY : Testing/TestThree.cpp.s
 
 # Help Target
 help:
@@ -177,10 +257,18 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... LabOne
-	@echo ... LabTwo/QuestionOne.obj
-	@echo ... LabTwo/QuestionOne.i
-	@echo ... LabTwo/QuestionOne.s
+	@echo ... QuestionOne
+	@echo ... QuestionTwo
+	@echo ... TestThree
+	@echo ... LabThree/QuestionOne.obj
+	@echo ... LabThree/QuestionOne.i
+	@echo ... LabThree/QuestionOne.s
+	@echo ... LabThree/QuestionTwo.obj
+	@echo ... LabThree/QuestionTwo.i
+	@echo ... LabThree/QuestionTwo.s
+	@echo ... Testing/TestThree.obj
+	@echo ... Testing/TestThree.i
+	@echo ... Testing/TestThree.s
 .PHONY : help
 
 

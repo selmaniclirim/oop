@@ -76,27 +76,27 @@ include CMakeFiles/TestOne.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TestOne.dir/flags.make
 
-CMakeFiles/TestOne.dir/Testing/ObjectAssignment.cpp.obj: CMakeFiles/TestOne.dir/flags.make
-CMakeFiles/TestOne.dir/Testing/ObjectAssignment.cpp.obj: ../Testing/ObjectAssignment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestOne.dir/Testing/ObjectAssignment.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestOne.dir\Testing\ObjectAssignment.cpp.obj -c C:\Users\Clirim\Documents\GitHub\oop\Testing\ObjectAssignment.cpp
+CMakeFiles/TestOne.dir/Testing/TestOne.cpp.obj: CMakeFiles/TestOne.dir/flags.make
+CMakeFiles/TestOne.dir/Testing/TestOne.cpp.obj: ../Testing/TestOne.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestOne.dir/Testing/TestOne.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestOne.dir\Testing\TestOne.cpp.obj -c C:\Users\Clirim\Documents\GitHub\oop\Testing\TestOne.cpp
 
-CMakeFiles/TestOne.dir/Testing/ObjectAssignment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestOne.dir/Testing/ObjectAssignment.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Clirim\Documents\GitHub\oop\Testing\ObjectAssignment.cpp > CMakeFiles\TestOne.dir\Testing\ObjectAssignment.cpp.i
+CMakeFiles/TestOne.dir/Testing/TestOne.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestOne.dir/Testing/TestOne.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Clirim\Documents\GitHub\oop\Testing\TestOne.cpp > CMakeFiles\TestOne.dir\Testing\TestOne.cpp.i
 
-CMakeFiles/TestOne.dir/Testing/ObjectAssignment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestOne.dir/Testing/ObjectAssignment.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Clirim\Documents\GitHub\oop\Testing\ObjectAssignment.cpp -o CMakeFiles\TestOne.dir\Testing\ObjectAssignment.cpp.s
+CMakeFiles/TestOne.dir/Testing/TestOne.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestOne.dir/Testing/TestOne.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Clirim\Documents\GitHub\oop\Testing\TestOne.cpp -o CMakeFiles\TestOne.dir\Testing\TestOne.cpp.s
 
 # Object files for target TestOne
 TestOne_OBJECTS = \
-"CMakeFiles/TestOne.dir/Testing/ObjectAssignment.cpp.obj"
+"CMakeFiles/TestOne.dir/Testing/TestOne.cpp.obj"
 
 # External object files for target TestOne
 TestOne_EXTERNAL_OBJECTS =
 
-TestOne.exe: CMakeFiles/TestOne.dir/Testing/ObjectAssignment.cpp.obj
+TestOne.exe: CMakeFiles/TestOne.dir/Testing/TestOne.cpp.obj
 TestOne.exe: CMakeFiles/TestOne.dir/build.make
 TestOne.exe: CMakeFiles/TestOne.dir/linklibs.rsp
 TestOne.exe: CMakeFiles/TestOne.dir/objects1.rsp

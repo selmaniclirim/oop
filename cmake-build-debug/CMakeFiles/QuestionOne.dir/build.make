@@ -76,47 +76,32 @@ include CMakeFiles/QuestionOne.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/QuestionOne.dir/flags.make
 
-CMakeFiles/QuestionOne.dir/LabTwo/QuestionOne.cpp.obj: CMakeFiles/QuestionOne.dir/flags.make
-CMakeFiles/QuestionOne.dir/LabTwo/QuestionOne.cpp.obj: ../LabTwo/QuestionOne.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/QuestionOne.dir/LabTwo/QuestionOne.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuestionOne.dir\LabTwo\QuestionOne.cpp.obj -c C:\Users\Clirim\Documents\GitHub\oop\LabTwo\QuestionOne.cpp
+CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.obj: CMakeFiles/QuestionOne.dir/flags.make
+CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.obj: ../LabThree/QuestionOne.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuestionOne.dir\LabThree\QuestionOne.cpp.obj -c C:\Users\Clirim\Documents\GitHub\oop\LabThree\QuestionOne.cpp
 
-CMakeFiles/QuestionOne.dir/LabTwo/QuestionOne.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuestionOne.dir/LabTwo/QuestionOne.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Clirim\Documents\GitHub\oop\LabTwo\QuestionOne.cpp > CMakeFiles\QuestionOne.dir\LabTwo\QuestionOne.cpp.i
+CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Clirim\Documents\GitHub\oop\LabThree\QuestionOne.cpp > CMakeFiles\QuestionOne.dir\LabThree\QuestionOne.cpp.i
 
-CMakeFiles/QuestionOne.dir/LabTwo/QuestionOne.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuestionOne.dir/LabTwo/QuestionOne.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Clirim\Documents\GitHub\oop\LabTwo\QuestionOne.cpp -o CMakeFiles\QuestionOne.dir\LabTwo\QuestionOne.cpp.s
-
-CMakeFiles/QuestionOne.dir/Exercises/Exercise27.cpp.obj: CMakeFiles/QuestionOne.dir/flags.make
-CMakeFiles/QuestionOne.dir/Exercises/Exercise27.cpp.obj: ../Exercises/Exercise27.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/QuestionOne.dir/Exercises/Exercise27.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuestionOne.dir\Exercises\Exercise27.cpp.obj -c C:\Users\Clirim\Documents\GitHub\oop\Exercises\Exercise27.cpp
-
-CMakeFiles/QuestionOne.dir/Exercises/Exercise27.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuestionOne.dir/Exercises/Exercise27.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Clirim\Documents\GitHub\oop\Exercises\Exercise27.cpp > CMakeFiles\QuestionOne.dir\Exercises\Exercise27.cpp.i
-
-CMakeFiles/QuestionOne.dir/Exercises/Exercise27.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuestionOne.dir/Exercises/Exercise27.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Clirim\Documents\GitHub\oop\Exercises\Exercise27.cpp -o CMakeFiles\QuestionOne.dir\Exercises\Exercise27.cpp.s
+CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Clirim\Documents\GitHub\oop\LabThree\QuestionOne.cpp -o CMakeFiles\QuestionOne.dir\LabThree\QuestionOne.cpp.s
 
 # Object files for target QuestionOne
 QuestionOne_OBJECTS = \
-"CMakeFiles/QuestionOne.dir/LabTwo/QuestionOne.cpp.obj" \
-"CMakeFiles/QuestionOne.dir/Exercises/Exercise27.cpp.obj"
+"CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.obj"
 
 # External object files for target QuestionOne
 QuestionOne_EXTERNAL_OBJECTS =
 
-QuestionOne.exe: CMakeFiles/QuestionOne.dir/LabTwo/QuestionOne.cpp.obj
-QuestionOne.exe: CMakeFiles/QuestionOne.dir/Exercises/Exercise27.cpp.obj
+QuestionOne.exe: CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.obj
 QuestionOne.exe: CMakeFiles/QuestionOne.dir/build.make
 QuestionOne.exe: CMakeFiles/QuestionOne.dir/linklibs.rsp
 QuestionOne.exe: CMakeFiles/QuestionOne.dir/objects1.rsp
 QuestionOne.exe: CMakeFiles/QuestionOne.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable QuestionOne.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable QuestionOne.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\QuestionOne.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

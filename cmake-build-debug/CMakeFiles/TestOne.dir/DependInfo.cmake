@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Clirim/Documents/GitHub/oop/Testing/ObjectAssignment.cpp" "C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/CMakeFiles/TestOne.dir/Testing/ObjectAssignment.cpp.obj"
+  "C:/Users/Clirim/Documents/GitHub/oop/Testing/TestOne.cpp" "C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug/CMakeFiles/TestOne.dir/Testing/TestOne.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
