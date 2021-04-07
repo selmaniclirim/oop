@@ -4,9 +4,9 @@ project(untitled)
 set(CMAKE_CXX_STANDARD 14)
 
 
-add_executable(QuestionOne LabThree/QuestionOne.cpp)
-add_executable(QuestionTwo LabThree/QuestionTwo.cpp)
-add_executable(QuestionThree LabThree/QuestionThree.cpp)
-add_executable(QuestionFour LabThree/QuestionFour.cpp)
-
-add_executable(TestThree Testing/TestThree.cpp)
+add_executable(QuestionOne LabFour/QuestionOne.cpp)
+add_executable(DynamicMemory Testing/DynamicMemory.cpp)
+add_executable(Exercise15 Exercises/Exercise15.cpp)
+add_executable(Exercise2 Exercises/Exercise2.cpp)
+add_executable(Exercise3 Exercises/Exercise3.cpp)
+add_executable(Structures Testing/Structures.c)

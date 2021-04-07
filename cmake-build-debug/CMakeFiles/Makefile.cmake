@@ -53,9 +53,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Structures.dir/DependInfo.cmake"
   "CMakeFiles/QuestionOne.dir/DependInfo.cmake"
-  "CMakeFiles/QuestionTwo.dir/DependInfo.cmake"
-  "CMakeFiles/TestThree.dir/DependInfo.cmake"
-  "CMakeFiles/QuestionThree.dir/DependInfo.cmake"
-  "CMakeFiles/QuestionFour.dir/DependInfo.cmake"
+  "CMakeFiles/Exercise15.dir/DependInfo.cmake"
+  "CMakeFiles/DynamicMemory.dir/DependInfo.cmake"
+  "CMakeFiles/Exercise2.dir/DependInfo.cmake"
+  "CMakeFiles/Exercise3.dir/DependInfo.cmake"
   )

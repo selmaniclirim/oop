@@ -1,7 +1,8 @@
+C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/CMakeFiles/Structures.dir
 C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/CMakeFiles/QuestionOne.dir
-C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/CMakeFiles/QuestionTwo.dir
-C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/CMakeFiles/TestThree.dir
-C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/CMakeFiles/QuestionThree.dir
-C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir
-C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/CMakeFiles/QuestionFour.dir
+C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/CMakeFiles/Exercise15.dir
+C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/CMakeFiles/DynamicMemory.dir
+C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/CMakeFiles/Exercise2.dir
 C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/CMakeFiles/Exercise3.dir
+C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir

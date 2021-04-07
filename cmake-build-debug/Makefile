@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Structures
+
+# Build rule for target.
+Structures: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Structures
+.PHONY : Structures
+
+# fast build rule for target.
+Structures/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/build
+.PHONY : Structures/fast
+
+#=============================================================================
 # Target rules for targets named QuestionOne
 
 # Build rule for target.
@@ -143,191 +156,218 @@ QuestionOne/fast:
 .PHONY : QuestionOne/fast
 
 #=============================================================================
-# Target rules for targets named QuestionTwo
+# Target rules for targets named Exercise15
 
 # Build rule for target.
-QuestionTwo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 QuestionTwo
-.PHONY : QuestionTwo
+Exercise15: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Exercise15
+.PHONY : Exercise15
 
 # fast build rule for target.
-QuestionTwo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/build
-.PHONY : QuestionTwo/fast
+Exercise15/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise15.dir\build.make CMakeFiles/Exercise15.dir/build
+.PHONY : Exercise15/fast
 
 #=============================================================================
-# Target rules for targets named TestThree
+# Target rules for targets named DynamicMemory
 
 # Build rule for target.
-TestThree: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TestThree
-.PHONY : TestThree
+DynamicMemory: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DynamicMemory
+.PHONY : DynamicMemory
 
 # fast build rule for target.
-TestThree/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestThree.dir\build.make CMakeFiles/TestThree.dir/build
-.PHONY : TestThree/fast
+DynamicMemory/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicMemory.dir\build.make CMakeFiles/DynamicMemory.dir/build
+.PHONY : DynamicMemory/fast
 
 #=============================================================================
-# Target rules for targets named QuestionThree
+# Target rules for targets named Exercise2
 
 # Build rule for target.
-QuestionThree: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 QuestionThree
-.PHONY : QuestionThree
+Exercise2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Exercise2
+.PHONY : Exercise2
 
 # fast build rule for target.
-QuestionThree/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/build
-.PHONY : QuestionThree/fast
+Exercise2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise2.dir\build.make CMakeFiles/Exercise2.dir/build
+.PHONY : Exercise2/fast
 
 #=============================================================================
-# Target rules for targets named QuestionFour
+# Target rules for targets named Exercise3
 
 # Build rule for target.
-QuestionFour: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 QuestionFour
-.PHONY : QuestionFour
+Exercise3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Exercise3
+.PHONY : Exercise3
 
 # fast build rule for target.
-QuestionFour/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionFour.dir\build.make CMakeFiles/QuestionFour.dir/build
-.PHONY : QuestionFour/fast
+Exercise3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise3.dir\build.make CMakeFiles/Exercise3.dir/build
+.PHONY : Exercise3/fast
 
-LabThree/QuestionFour.obj: LabThree/QuestionFour.cpp.obj
+Exercises/Exercise15.obj: Exercises/Exercise15.cpp.obj
 
-.PHONY : LabThree/QuestionFour.obj
-
-# target to build an object file
-LabThree/QuestionFour.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionFour.dir\build.make CMakeFiles/QuestionFour.dir/LabThree/QuestionFour.cpp.obj
-.PHONY : LabThree/QuestionFour.cpp.obj
-
-LabThree/QuestionFour.i: LabThree/QuestionFour.cpp.i
-
-.PHONY : LabThree/QuestionFour.i
-
-# target to preprocess a source file
-LabThree/QuestionFour.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionFour.dir\build.make CMakeFiles/QuestionFour.dir/LabThree/QuestionFour.cpp.i
-.PHONY : LabThree/QuestionFour.cpp.i
-
-LabThree/QuestionFour.s: LabThree/QuestionFour.cpp.s
-
-.PHONY : LabThree/QuestionFour.s
-
-# target to generate assembly for a file
-LabThree/QuestionFour.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionFour.dir\build.make CMakeFiles/QuestionFour.dir/LabThree/QuestionFour.cpp.s
-.PHONY : LabThree/QuestionFour.cpp.s
-
-LabThree/QuestionOne.obj: LabThree/QuestionOne.cpp.obj
-
-.PHONY : LabThree/QuestionOne.obj
+.PHONY : Exercises/Exercise15.obj
 
 # target to build an object file
-LabThree/QuestionOne.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.obj
-.PHONY : LabThree/QuestionOne.cpp.obj
+Exercises/Exercise15.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise15.dir\build.make CMakeFiles/Exercise15.dir/Exercises/Exercise15.cpp.obj
+.PHONY : Exercises/Exercise15.cpp.obj
 
-LabThree/QuestionOne.i: LabThree/QuestionOne.cpp.i
+Exercises/Exercise15.i: Exercises/Exercise15.cpp.i
 
-.PHONY : LabThree/QuestionOne.i
+.PHONY : Exercises/Exercise15.i
 
 # target to preprocess a source file
-LabThree/QuestionOne.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.i
-.PHONY : LabThree/QuestionOne.cpp.i
+Exercises/Exercise15.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise15.dir\build.make CMakeFiles/Exercise15.dir/Exercises/Exercise15.cpp.i
+.PHONY : Exercises/Exercise15.cpp.i
 
-LabThree/QuestionOne.s: LabThree/QuestionOne.cpp.s
+Exercises/Exercise15.s: Exercises/Exercise15.cpp.s
 
-.PHONY : LabThree/QuestionOne.s
+.PHONY : Exercises/Exercise15.s
 
 # target to generate assembly for a file
-LabThree/QuestionOne.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.s
-.PHONY : LabThree/QuestionOne.cpp.s
+Exercises/Exercise15.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise15.dir\build.make CMakeFiles/Exercise15.dir/Exercises/Exercise15.cpp.s
+.PHONY : Exercises/Exercise15.cpp.s
 
-LabThree/QuestionThree.obj: LabThree/QuestionThree.cpp.obj
+Exercises/Exercise2.obj: Exercises/Exercise2.cpp.obj
 
-.PHONY : LabThree/QuestionThree.obj
+.PHONY : Exercises/Exercise2.obj
 
 # target to build an object file
-LabThree/QuestionThree.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.obj
-.PHONY : LabThree/QuestionThree.cpp.obj
+Exercises/Exercise2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise2.dir\build.make CMakeFiles/Exercise2.dir/Exercises/Exercise2.cpp.obj
+.PHONY : Exercises/Exercise2.cpp.obj
 
-LabThree/QuestionThree.i: LabThree/QuestionThree.cpp.i
+Exercises/Exercise2.i: Exercises/Exercise2.cpp.i
 
-.PHONY : LabThree/QuestionThree.i
+.PHONY : Exercises/Exercise2.i
 
 # target to preprocess a source file
-LabThree/QuestionThree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.i
-.PHONY : LabThree/QuestionThree.cpp.i
+Exercises/Exercise2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise2.dir\build.make CMakeFiles/Exercise2.dir/Exercises/Exercise2.cpp.i
+.PHONY : Exercises/Exercise2.cpp.i
 
-LabThree/QuestionThree.s: LabThree/QuestionThree.cpp.s
+Exercises/Exercise2.s: Exercises/Exercise2.cpp.s
 
-.PHONY : LabThree/QuestionThree.s
+.PHONY : Exercises/Exercise2.s
 
 # target to generate assembly for a file
-LabThree/QuestionThree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionThree.dir\build.make CMakeFiles/QuestionThree.dir/LabThree/QuestionThree.cpp.s
-.PHONY : LabThree/QuestionThree.cpp.s
+Exercises/Exercise2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise2.dir\build.make CMakeFiles/Exercise2.dir/Exercises/Exercise2.cpp.s
+.PHONY : Exercises/Exercise2.cpp.s
 
-LabThree/QuestionTwo.obj: LabThree/QuestionTwo.cpp.obj
+Exercises/Exercise3.obj: Exercises/Exercise3.cpp.obj
 
-.PHONY : LabThree/QuestionTwo.obj
+.PHONY : Exercises/Exercise3.obj
 
 # target to build an object file
-LabThree/QuestionTwo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/LabThree/QuestionTwo.cpp.obj
-.PHONY : LabThree/QuestionTwo.cpp.obj
+Exercises/Exercise3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise3.dir\build.make CMakeFiles/Exercise3.dir/Exercises/Exercise3.cpp.obj
+.PHONY : Exercises/Exercise3.cpp.obj
 
-LabThree/QuestionTwo.i: LabThree/QuestionTwo.cpp.i
+Exercises/Exercise3.i: Exercises/Exercise3.cpp.i
 
-.PHONY : LabThree/QuestionTwo.i
+.PHONY : Exercises/Exercise3.i
 
 # target to preprocess a source file
-LabThree/QuestionTwo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/LabThree/QuestionTwo.cpp.i
-.PHONY : LabThree/QuestionTwo.cpp.i
+Exercises/Exercise3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise3.dir\build.make CMakeFiles/Exercise3.dir/Exercises/Exercise3.cpp.i
+.PHONY : Exercises/Exercise3.cpp.i
 
-LabThree/QuestionTwo.s: LabThree/QuestionTwo.cpp.s
+Exercises/Exercise3.s: Exercises/Exercise3.cpp.s
 
-.PHONY : LabThree/QuestionTwo.s
+.PHONY : Exercises/Exercise3.s
 
 # target to generate assembly for a file
-LabThree/QuestionTwo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionTwo.dir\build.make CMakeFiles/QuestionTwo.dir/LabThree/QuestionTwo.cpp.s
-.PHONY : LabThree/QuestionTwo.cpp.s
+Exercises/Exercise3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Exercise3.dir\build.make CMakeFiles/Exercise3.dir/Exercises/Exercise3.cpp.s
+.PHONY : Exercises/Exercise3.cpp.s
 
-Testing/TestThree.obj: Testing/TestThree.cpp.obj
+LabFour/QuestionOne.obj: LabFour/QuestionOne.cpp.obj
 
-.PHONY : Testing/TestThree.obj
+.PHONY : LabFour/QuestionOne.obj
 
 # target to build an object file
-Testing/TestThree.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestThree.dir\build.make CMakeFiles/TestThree.dir/Testing/TestThree.cpp.obj
-.PHONY : Testing/TestThree.cpp.obj
+LabFour/QuestionOne.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabFour/QuestionOne.cpp.obj
+.PHONY : LabFour/QuestionOne.cpp.obj
 
-Testing/TestThree.i: Testing/TestThree.cpp.i
+LabFour/QuestionOne.i: LabFour/QuestionOne.cpp.i
 
-.PHONY : Testing/TestThree.i
+.PHONY : LabFour/QuestionOne.i
 
 # target to preprocess a source file
-Testing/TestThree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestThree.dir\build.make CMakeFiles/TestThree.dir/Testing/TestThree.cpp.i
-.PHONY : Testing/TestThree.cpp.i
+LabFour/QuestionOne.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabFour/QuestionOne.cpp.i
+.PHONY : LabFour/QuestionOne.cpp.i
 
-Testing/TestThree.s: Testing/TestThree.cpp.s
+LabFour/QuestionOne.s: LabFour/QuestionOne.cpp.s
 
-.PHONY : Testing/TestThree.s
+.PHONY : LabFour/QuestionOne.s
 
 # target to generate assembly for a file
-Testing/TestThree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestThree.dir\build.make CMakeFiles/TestThree.dir/Testing/TestThree.cpp.s
-.PHONY : Testing/TestThree.cpp.s
+LabFour/QuestionOne.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuestionOne.dir\build.make CMakeFiles/QuestionOne.dir/LabFour/QuestionOne.cpp.s
+.PHONY : LabFour/QuestionOne.cpp.s
+
+Testing/DynamicMemory.obj: Testing/DynamicMemory.cpp.obj
+
+.PHONY : Testing/DynamicMemory.obj
+
+# target to build an object file
+Testing/DynamicMemory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicMemory.dir\build.make CMakeFiles/DynamicMemory.dir/Testing/DynamicMemory.cpp.obj
+.PHONY : Testing/DynamicMemory.cpp.obj
+
+Testing/DynamicMemory.i: Testing/DynamicMemory.cpp.i
+
+.PHONY : Testing/DynamicMemory.i
+
+# target to preprocess a source file
+Testing/DynamicMemory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicMemory.dir\build.make CMakeFiles/DynamicMemory.dir/Testing/DynamicMemory.cpp.i
+.PHONY : Testing/DynamicMemory.cpp.i
+
+Testing/DynamicMemory.s: Testing/DynamicMemory.cpp.s
+
+.PHONY : Testing/DynamicMemory.s
+
+# target to generate assembly for a file
+Testing/DynamicMemory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicMemory.dir\build.make CMakeFiles/DynamicMemory.dir/Testing/DynamicMemory.cpp.s
+.PHONY : Testing/DynamicMemory.cpp.s
+
+Testing/Structures.obj: Testing/Structures.c.obj
+
+.PHONY : Testing/Structures.obj
+
+# target to build an object file
+Testing/Structures.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/Testing/Structures.c.obj
+.PHONY : Testing/Structures.c.obj
+
+Testing/Structures.i: Testing/Structures.c.i
+
+.PHONY : Testing/Structures.i
+
+# target to preprocess a source file
+Testing/Structures.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/Testing/Structures.c.i
+.PHONY : Testing/Structures.c.i
+
+Testing/Structures.s: Testing/Structures.c.s
+
+.PHONY : Testing/Structures.s
+
+# target to generate assembly for a file
+Testing/Structures.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/Testing/Structures.c.s
+.PHONY : Testing/Structures.c.s
 
 # Help Target
 help:
@@ -337,26 +377,30 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... QuestionFour
+	@echo ... DynamicMemory
+	@echo ... Exercise15
+	@echo ... Exercise2
+	@echo ... Exercise3
 	@echo ... QuestionOne
-	@echo ... QuestionThree
-	@echo ... QuestionTwo
-	@echo ... TestThree
-	@echo ... LabThree/QuestionFour.obj
-	@echo ... LabThree/QuestionFour.i
-	@echo ... LabThree/QuestionFour.s
-	@echo ... LabThree/QuestionOne.obj
-	@echo ... LabThree/QuestionOne.i
-	@echo ... LabThree/QuestionOne.s
-	@echo ... LabThree/QuestionThree.obj
-	@echo ... LabThree/QuestionThree.i
-	@echo ... LabThree/QuestionThree.s
-	@echo ... LabThree/QuestionTwo.obj
-	@echo ... LabThree/QuestionTwo.i
-	@echo ... LabThree/QuestionTwo.s
-	@echo ... Testing/TestThree.obj
-	@echo ... Testing/TestThree.i
-	@echo ... Testing/TestThree.s
+	@echo ... Structures
+	@echo ... Exercises/Exercise15.obj
+	@echo ... Exercises/Exercise15.i
+	@echo ... Exercises/Exercise15.s
+	@echo ... Exercises/Exercise2.obj
+	@echo ... Exercises/Exercise2.i
+	@echo ... Exercises/Exercise2.s
+	@echo ... Exercises/Exercise3.obj
+	@echo ... Exercises/Exercise3.i
+	@echo ... Exercises/Exercise3.s
+	@echo ... LabFour/QuestionOne.obj
+	@echo ... LabFour/QuestionOne.i
+	@echo ... LabFour/QuestionOne.s
+	@echo ... Testing/DynamicMemory.obj
+	@echo ... Testing/DynamicMemory.i
+	@echo ... Testing/DynamicMemory.s
+	@echo ... Testing/Structures.obj
+	@echo ... Testing/Structures.i
+	@echo ... Testing/Structures.s
 .PHONY : help
 
 

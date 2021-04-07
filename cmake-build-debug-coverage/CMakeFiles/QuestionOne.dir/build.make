@@ -76,27 +76,27 @@ include CMakeFiles/QuestionOne.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/QuestionOne.dir/flags.make
 
-CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.obj: CMakeFiles/QuestionOne.dir/flags.make
-CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.obj: ../LabThree/QuestionOne.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuestionOne.dir\LabThree\QuestionOne.cpp.obj -c C:\Users\Clirim\Documents\GitHub\oop\LabThree\QuestionOne.cpp
+CMakeFiles/QuestionOne.dir/LabFour/QuestionOne.cpp.obj: CMakeFiles/QuestionOne.dir/flags.make
+CMakeFiles/QuestionOne.dir/LabFour/QuestionOne.cpp.obj: ../LabFour/QuestionOne.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Clirim\Documents\GitHub\oop\cmake-build-debug-coverage\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/QuestionOne.dir/LabFour/QuestionOne.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuestionOne.dir\LabFour\QuestionOne.cpp.obj -c C:\Users\Clirim\Documents\GitHub\oop\LabFour\QuestionOne.cpp
 
-CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Clirim\Documents\GitHub\oop\LabThree\QuestionOne.cpp > CMakeFiles\QuestionOne.dir\LabThree\QuestionOne.cpp.i
+CMakeFiles/QuestionOne.dir/LabFour/QuestionOne.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuestionOne.dir/LabFour/QuestionOne.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Clirim\Documents\GitHub\oop\LabFour\QuestionOne.cpp > CMakeFiles\QuestionOne.dir\LabFour\QuestionOne.cpp.i
 
-CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Clirim\Documents\GitHub\oop\LabThree\QuestionOne.cpp -o CMakeFiles\QuestionOne.dir\LabThree\QuestionOne.cpp.s
+CMakeFiles/QuestionOne.dir/LabFour/QuestionOne.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuestionOne.dir/LabFour/QuestionOne.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Clirim\Documents\GitHub\oop\LabFour\QuestionOne.cpp -o CMakeFiles\QuestionOne.dir\LabFour\QuestionOne.cpp.s
 
 # Object files for target QuestionOne
 QuestionOne_OBJECTS = \
-"CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.obj"
+"CMakeFiles/QuestionOne.dir/LabFour/QuestionOne.cpp.obj"
 
 # External object files for target QuestionOne
 QuestionOne_EXTERNAL_OBJECTS =
 
-QuestionOne.exe: CMakeFiles/QuestionOne.dir/LabThree/QuestionOne.cpp.obj
+QuestionOne.exe: CMakeFiles/QuestionOne.dir/LabFour/QuestionOne.cpp.obj
 QuestionOne.exe: CMakeFiles/QuestionOne.dir/build.make
 QuestionOne.exe: CMakeFiles/QuestionOne.dir/linklibs.rsp
 QuestionOne.exe: CMakeFiles/QuestionOne.dir/objects1.rsp

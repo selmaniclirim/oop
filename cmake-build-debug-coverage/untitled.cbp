@@ -17,6 +17,48 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Structures">
+				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Structures.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 Structures"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Structures/fast">
+				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Structures.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 Structures/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="QuestionOne">
 				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/QuestionOne.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage"/>
@@ -59,8 +101,8 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="QuestionTwo">
-				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/QuestionTwo.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Exercise15">
+				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Exercise15.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -74,14 +116,14 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 QuestionTwo"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 Exercise15"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="QuestionTwo/fast">
-				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/QuestionTwo.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Exercise15/fast">
+				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Exercise15.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -95,14 +137,14 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 QuestionTwo/fast"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 Exercise15/fast"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="TestThree">
-				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/TestThree.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="DynamicMemory">
+				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/DynamicMemory.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -116,14 +158,14 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 TestThree"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 DynamicMemory"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="TestThree/fast">
-				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/TestThree.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="DynamicMemory/fast">
+				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/DynamicMemory.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -137,14 +179,14 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 TestThree/fast"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 DynamicMemory/fast"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="QuestionThree">
-				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/QuestionThree.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Exercise2">
+				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Exercise2.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -158,14 +200,14 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 QuestionThree"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 Exercise2"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="QuestionThree/fast">
-				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/QuestionThree.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Exercise2/fast">
+				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Exercise2.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -179,59 +221,7 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 QuestionThree/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="QuestionFour">
-				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/QuestionFour.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 QuestionFour"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="QuestionFour/fast">
-				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/QuestionFour.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 QuestionFour/fast"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 Exercise2/fast"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
@@ -247,21 +237,76 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Exercise3">
+				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Exercise3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 Exercise3"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Exercise3/fast">
+				<Option output="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Exercise3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 Exercise3/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Clirim/Documents/GitHub/oop/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
-		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/LabThree/QuestionFour.cpp">
-			<Option target="QuestionFour"/>
+		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/Exercises/Exercise15.cpp">
+			<Option target="Exercise15"/>
 		</Unit>
-		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/LabThree/QuestionOne.cpp">
+		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/Exercises/Exercise2.cpp">
+			<Option target="Exercise2"/>
+		</Unit>
+		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/Exercises/Exercise3.cpp">
+			<Option target="Exercise3"/>
+		</Unit>
+		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/LabFour/QuestionOne.cpp">
 			<Option target="QuestionOne"/>
 		</Unit>
-		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/LabThree/QuestionThree.cpp">
-			<Option target="QuestionThree"/>
+		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/Testing/DynamicMemory.cpp">
+			<Option target="DynamicMemory"/>
 		</Unit>
-		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/LabThree/QuestionTwo.cpp">
-			<Option target="QuestionTwo"/>
-		</Unit>
-		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/Testing/TestThree.cpp">
-			<Option target="TestThree"/>
+		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/Testing/Structures.c">
+			<Option target="Structures"/>
 		</Unit>
 		<Unit filename="C:/Users/Clirim/Documents/GitHub/oop/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
